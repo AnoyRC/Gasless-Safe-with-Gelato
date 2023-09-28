@@ -73,6 +73,8 @@ export default function Home() {
     );
 
     console.log(relayResponse);
+
+    location.href = `https://api.gelato.digital/tasks/status/${relayResponse.taskId}`;
   };
 
   return (
