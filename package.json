@@ -1,0 +1,30 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@gelatonetwork/relay-sdk": "^5.4.0",
+    "@yearn-finance/web-lib": "^3.0.41",
+    "encoding": "^0.1.13",
+    "ethers": "^6.7.1",
+    "lokijs": "^1.5.12",
+    "next": "latest",
+    "pino-pretty": "^10.2.0",
+    "react": "latest",
+    "react-dom": "latest",
+    "supports-color": "^9.4.0",
+    "viem": "^1.12.2",
+    "wagmi": "^1.4.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "latest",
+    "postcss": "latest",
+    "tailwindcss": "latest"
+  }
+}
